@@ -1,5 +1,5 @@
 // frontend/src/api/auth.ts
-const API_URL = import.meta.env.VITE_API_URL ?? "http://localhost:4000";
+const API_URL = import.meta.env.VITE_API_URL ?? "https://hive-production-8b78.up.railway.app/";
 
 export type MeResponse =
   | {
